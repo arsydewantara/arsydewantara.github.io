@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mobile Legend Guides</title>
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="header-logo" id="header-logo">
+            <h4>Guidebook Mobile Legend</h4>
+        </div>
+    </div>
+
+    <div class="navbar">
+            <a href="#" class="a">Home</a>
+            <a href="about.html" class="a">About Me</a>
+            <a href="menucrud.php" class="a">Event Showcase</a>
+    </div>
+
+    <div class="main">
+        <div class="content">
+            <img src="gambar/battlefield.jpg" alt="" width="310px">
+            <p>Battlefield Guide</p>
+        </div>
+        <div class="content">
+            <img src="gambar/skin.jpg" alt="ini gambar Skin" width="230px">
+            <p>Skin Showcase</p>
+        </div>
+        <div class="content">
+            <img src="gambar/mitik.png" alt="" width="300px">
+            <p>Rank Tier list</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-text">
+            <p>@Copyright Arsy 2022</p>
+        </div>
+    </div>
+    <div class="mode">
+        <input type="checkbox" id="tombol" onclick="myFunction()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
